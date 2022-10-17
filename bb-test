@@ -1,0 +1,10 @@
+#!/usr/bin/env bb
+
+(ns bb-test
+	(:require [babashka.tasks :refer [run shell]]))
+
+(defn lein []
+	(shell "lein"))
+
+(lein)
+
